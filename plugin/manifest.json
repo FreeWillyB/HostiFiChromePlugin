@@ -1,0 +1,22 @@
+{
+  "name": "Unifi Device Export Utility",
+  "version": "0.1.0",
+  "description": "Plugin developed by HostiFi to export list of devices from Unifi Network Controller",
+  "permissions": ["tabs"],
+  "content_scripts": [
+    {
+      "matches": ["http://unifi.ui.com/*", "https://unifi.ui.com/*"],
+      "js": ["scripts/exportDevices.js"]
+    }
+  ],
+  "action": {
+    "default_icon": {
+      "16": "assets/favicon_small.png",
+      "24": "assets/favicon_small.png",
+      "32": "assets/favicon_small.png"
+    },
+    "default_title": "Unifi Device Export Utility",
+    "default_popup": "popup.html"
+  },
+  "manifest_version": 3
+}
