@@ -12,11 +12,11 @@ Installing the extension is very straightforward. All you need to do is download
 
 Next, open up your Chrome browser and click the 3 dots in the top right corner. Then go down to "More tools > Extensions" to bring up the extensions page. 
 
-![Chrome Extensions Menu Location](https://github.com/FreeWillyB/HostiFiChromePlugin/raw/branch/master/readme-images/extension-page.png)
+![Chrome Extensions Menu Location](https://github.com/FreeWillyB/HostiFiChromePlugin/raw/main/readme-images/extension-page.png)
 
 In the very top right corner, click switch button to enable "Developer Mode". Lastly, click on the "Load unpacked" button in the top left corner, then go to the "Plugin" folder in the location you extracted it to earlier and select the "plugin" directory. Once you hit "Select Folder", you should now have an extension called "Unifi Device Export Utility" loaded in the browser.
 
-![Load Unpacked Plugin](https://github.com/FreeWillyB/HostiFiChromePlugin/raw/branch/master/readme-images/load-unpacked.png)
+![Load Unpacked Plugin](https://github.com/FreeWillyB/HostiFiChromePlugin/raw/main/readme-images/load-unpacked.png)
 
 ## Updating the Extension
 
